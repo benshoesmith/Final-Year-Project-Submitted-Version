@@ -1,0 +1,11 @@
+My project has no executable because it is a collection of assets and systems for unity that allow the user to create an executable. 
+
+HOW TO OPEN:
+Go to Unity and select my project folder to open.
+
+HOW TO USE:
+Open either the SampleScene, TomsScene or BraddsScene (last two are scenes created by my testers)
+In the Scenes folder, there is a tutorial folder. This contains scenes which when run in unity show the user how to use the system and assets I've created.
+
+NOTE ON TESTING:
+The testers scenes were created solely by them without my help or guidance. All guidance came from my tutorials and them trying out different things. The only things I did give them was a plane to create their game on, the player asset and the base system assets such as the inventory system, pause/menu system and the other UI elements and event systems, which are not meant to be edited by the suers, and was not part of the system I want them to alter.

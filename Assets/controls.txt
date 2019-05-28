@@ -1,0 +1,10 @@
+Controls:
+Move: WASD
+Sprint: SHIFT
+Jump: Space
+Attack (with weapon equipped): L
+Interact(NPCs and Items): E
+Pause: P
+Open Inventory: I
+
+Go to Scenes/Tutorials for info on adding enemies, quests, items etc.

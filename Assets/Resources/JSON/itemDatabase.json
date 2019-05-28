@@ -1,0 +1,310 @@
+[
+    {
+        "itemSlug": "sword", // NOTE: THIS CAN'T BE THE SAME AS ANOTHER ITEM SLUG, IT ALSO CAN'T HAVE SPACES IN IT. IT'S USED TO FIND THE ITEM
+        "itemName": "Beginner Sword",
+        "description": "A dull training sword.",
+        "interactName": "Equip",
+        "modifier": 0, // DON'T CHANGE THIS
+        "itemType": "Weapon",
+        "stats": [
+            {
+                "StatType": "Attack", // Slug name - could be att_stat - DON't CHANGE THIS
+                "defaultStatValue": 50,
+                "statName": "Attack" // Actual stat name - could be "attack stat" - DON'T CHANGE THIS
+            },
+            {
+                "StatType": "Defence", // DON'T CHANGE THIS
+                "defaultStatValue": 1,
+                "statName": "Defence" // DON'T CHANGE THIS
+            },
+            {
+                "StatType": "Speed", // DON'T CHANGE THIS
+                "defaultStatValue": 6,
+                "statName": "Speed" // DON'T CHANGE THIS
+            }
+        ]
+    },
+    {
+        "itemSlug": "test_consumable",
+        "itemName": "Test Consumable",
+        "description": "Tests consumables.",
+        "interactName": "Consume",
+        "modifier": 0,
+        "itemType": "Consumable"
+    },
+    {
+        "itemSlug": "wand",
+        "itemName": "Beginner Wand",
+        "description": "A small magical stick.",
+        "interactName": "Equip",
+        "modifier": 0,
+        "itemType": "Weapon",
+        "stats": [
+            {
+                "StatType": "Attack", // Slug name - could be att_stat
+                "defaultStatValue": 60,
+                "statName": "Attack" // Actual stat name - could be "attack stat"
+            },
+            {
+                "StatType": "Defence",
+                "defaultStatValue": 2,
+                "statName": "Defence"
+            },
+            {
+                "StatType": "Speed",
+                "defaultStatValue": 3,
+                "statName": "Speed"
+            }
+        ]
+    },
+    {
+        "itemSlug": "shield",
+        "itemName": "Rusty Shield",
+        "description": "A worn down rusty shield.",
+        "interactName": "Equip",
+        "modifier": 0,
+        "itemType": "Shield",
+        "stats": [
+            {
+                "StatType": "Attack", // Slug name - could be att_stat
+                "defaultStatValue": 0,
+                "statName": "Attack" // Actual stat name - could be "attack stat"
+            },
+            {
+                "StatType": "Defence",
+                "defaultStatValue": 6,
+                "statName": "Defence"
+            },
+            {
+                "StatType": "Speed",
+                "defaultStatValue": 0,
+                "statName": "Speed"
+            }
+        ]
+    },
+    {
+        "itemSlug": "helmet",
+        "itemName": "Training Helemt",
+        "description": "A training helmet.",
+        "interactName": "Wear",
+        "modifier": 0,
+        "itemType": "Helmet",
+        "stats": [
+            {
+                "StatType": "Attack", // Slug name - could be att_stat
+                "defaultStatValue": 0,
+                "statName": "Attack" // Actual stat name - could be "attack stat"
+            },
+            {
+                "StatType": "Defence",
+                "defaultStatValue": 7,
+                "statName": "Defence"
+            },
+            {
+                "StatType": "Speed",
+                "defaultStatValue": 0,
+                "statName": "Speed"
+            }
+        ]
+    },
+    {
+        "itemSlug": "chestplate",
+        "itemName": "Training Chestplate",
+        "description": "A training chestplate.",
+        "interactName": "Wear",
+        "modifier": 0,
+        "itemType": "Chestplate",
+        "stats": [
+            {
+                "StatType": "Attack", // Slug name - could be att_stat
+                "defaultStatValue": 3,
+                "statName": "Attack" // Actual stat name - could be "attack stat"
+            },
+            {
+                "StatType": "Defence",
+                "defaultStatValue": 12,
+                "statName": "Defence"
+            },
+            {
+                "StatType": "Speed",
+                "defaultStatValue": 1,
+                "statName": "Speed"
+            }
+        ]
+    },
+    {
+        "itemSlug": "platelegs",
+        "itemName": "Training Platelegs",
+        "description": "A pair of training platelegs.",
+        "interactName": "Wear",
+        "modifier": 0,
+        "itemType": "Platelegs",
+        "stats": [
+            {
+                "StatType": "Attack", // Slug name - could be att_stat
+                "defaultStatValue": 0,
+                "statName": "Attack" // Actual stat name - could be "attack stat"
+            },
+            {
+                "StatType": "Defence",
+                "defaultStatValue": 10,
+                "statName": "Defence"
+            },
+            {
+                "StatType": "Speed",
+                "defaultStatValue": 2,
+                "statName": "Speed"
+            }
+        ]
+    },
+    {
+        "itemSlug": "boots",
+        "itemName": "Leather Boots",
+        "description": "Some worn leather boots.",
+        "interactName": "Wear",
+        "modifier": 0,
+        "itemType": "Boots",
+        "stats": [
+            {
+                "StatType": "Attack", // Slug name - could be att_stat
+                "defaultStatValue": 0,
+                "statName": "Attack" // Actual stat name - could be "attack stat"
+            },
+            {
+                "StatType": "Defence",
+                "defaultStatValue": 2,
+                "statName": "Defence"
+            },
+            {
+                "StatType": "Speed",
+                "defaultStatValue": 5,
+                "statName": "Speed"
+            }
+        ]
+    },
+    {
+        "itemSlug": "tutSword", // KEEP SAME TYPE AS ITEMTYPE (E.G. SWORD -> WEAPON, SHIELD -> SHIELD - COPY AND PASTE CODE OF THE ITEMTYPE YOU WANT AND MODIFY THAT
+        "itemName": "TUTORIAL SWORD",
+        "description": "THIS CAN BE CHANGED.",
+        "interactName": "Equip",
+        "modifier": 0, // DON'T CHANGE THIS
+        "itemType": "Weapon", // SET THIS TO EITHER "Weapon", "Shield", "Helmet", "Chestplate", "Platelegs", "Boots", or "Consumable", DEPENDING ON WHAT YOUR ITEM IS
+        "stats": [
+            {
+                "StatType": "Attack", // Slug name - could be att_stat - DON't CHANGE THIS
+                "defaultStatValue": 500,
+                "statName": "Attack" // Actual stat name - could be "attack stat" - DON'T CHANGE THIS
+            },
+            {
+                "StatType": "Defence", // DON'T CHANGE THIS
+                "defaultStatValue": 100,
+                "statName": "Defence" // DON'T CHANGE THIS
+            },
+            {
+                "StatType": "Speed", // DON'T CHANGE THIS
+                "defaultStatValue": 60,
+                "statName": "Speed" // DON'T CHANGE THIS
+            }
+        ]
+    },
+    {
+        "itemSlug": "tomswinnersword", // NOTE: THIS CAN'T BE THE SAME AS ANOTHER ITEM SLUG, IT ALSO CAN'T HAVE SPACES IN IT. IT'S USED TO FIND THE ITEM
+        "itemName": "Toms Winner Sword",
+        "description": "The best sword in the game.",
+        "interactName": "Equip",
+        "modifier": 0, // DON'T CHANGE THIS
+        "itemType": "Weapon",
+        "stats": [
+            {
+                "StatType": "Attack", // Slug name - could be att_stat - DON't CHANGE THIS
+                "defaultStatValue": 600,
+                "statName": "Attack" // Actual stat name - could be "attack stat" - DON'T CHANGE THIS
+            },
+            {
+                "StatType": "Defence", // DON'T CHANGE THIS
+                "defaultStatValue": 7,
+                "statName": "Defence" // DON'T CHANGE THIS
+            },
+            {
+                "StatType": "Speed", // DON'T CHANGE THIS
+                "defaultStatValue": 50,
+                "statName": "Speed" // DON'T CHANGE THIS
+            }
+        ]
+    },
+    {
+        "itemSlug": "coconuthelmet", // NOTE: THIS CAN'T BE THE SAME AS ANOTHER ITEM SLUG, IT ALSO CAN'T HAVE SPACES IN IT. IT'S USED TO FIND THE ITEM
+        "itemName": "Coconut Helmet",
+        "description": "A helmet made from a coconut.",
+        "interactName": "Wear",
+        "modifier": 0, // DON'T CHANGE THIS
+        "itemType": "Helmet",
+        "stats": [
+            {
+                "StatType": "Attack", // Slug name - could be att_stat - DON't CHANGE THIS
+                "defaultStatValue": 3,
+                "statName": "Attack" // Actual stat name - could be "attack stat" - DON'T CHANGE THIS
+            },
+            {
+                "StatType": "Defence", // DON'T CHANGE THIS
+                "defaultStatValue": 70,
+                "statName": "Defence" // DON'T CHANGE THIS
+            },
+            {
+                "StatType": "Speed", // DON'T CHANGE THIS
+                "defaultStatValue": 2,
+                "statName": "Speed" // DON'T CHANGE THIS
+            }
+        ]
+    },
+    {
+        "itemSlug": "greatsword", // NOTE: THIS CAN'T BE THE SAME AS ANOTHER ITEM SLUG, IT ALSO CAN'T HAVE SPACES IN IT. IT'S USED TO FIND THE ITEM
+        "itemName": "GreatSword",
+        "description": "A massive thick sword.",
+        "interactName": "Equip",
+        "modifier": 0, // DON'T CHANGE THIS
+        "itemType": "Weapon",
+        "stats": [
+            {
+                "StatType": "Attack", // Slug name - could be att_stat - DON't CHANGE THIS
+                "defaultStatValue": 500,
+                "statName": "Attack" // Actual stat name - could be "attack stat" - DON'T CHANGE THIS
+            },
+            {
+                "StatType": "Defence", // DON'T CHANGE THIS
+                "defaultStatValue": 1,
+                "statName": "Defence" // DON'T CHANGE THIS
+            },
+            {
+                "StatType": "Speed", // DON'T CHANGE THIS
+                "defaultStatValue": 6,
+                "statName": "Speed" // DON'T CHANGE THIS
+            }
+        ]
+    },
+    {
+        "itemSlug": "greatshield", // NOTE: THIS CAN'T BE THE SAME AS ANOTHER ITEM SLUG, IT ALSO CAN'T HAVE SPACES IN IT. IT'S USED TO FIND THE ITEM
+        "itemName": "Greatshield",
+        "description": "A massive thick shield.",
+        "interactName": "Equip",
+        "modifier": 0, // DON'T CHANGE THIS
+        "itemType": "Shield",
+        "stats": [
+            {
+                "StatType": "Attack", // Slug name - could be att_stat - DON't CHANGE THIS
+                "defaultStatValue": 50,
+                "statName": "Attack" // Actual stat name - could be "attack stat" - DON'T CHANGE THIS
+            },
+            {
+                "StatType": "Defence", // DON'T CHANGE THIS
+                "defaultStatValue": 1000,
+                "statName": "Defence" // DON'T CHANGE THIS
+            },
+            {
+                "StatType": "Speed", // DON'T CHANGE THIS
+                "defaultStatValue": 1,
+                "statName": "Speed" // DON'T CHANGE THIS
+            }
+        ]
+    }
+]
